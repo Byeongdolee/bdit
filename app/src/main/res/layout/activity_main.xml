@@ -15,7 +15,7 @@
     <TextView
         android:gravity="center"
         android:id="@+id/text_one"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
