@@ -2,6 +2,7 @@ package com.purpleworks.bdit
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,5 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         text_one.text = "I am master"
 
+        button.setOnClickListener {
+            imagePopup.visibility = View.VISIBLE
+        }
     }
 }
