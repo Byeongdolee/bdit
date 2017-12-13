@@ -7,11 +7,6 @@
     android:gravity="center"
     tools:context="com.purpleworks.bdit.MainActivity">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher"/>
-
     <TextView
         android:gravity="center"
         android:id="@+id/text_one"
@@ -19,7 +14,7 @@
         android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="aaaaHello, World!"/>
+        android:text="ImageView Removed!"/>
 
     <Button
         android:layout_width="wrap_content"
