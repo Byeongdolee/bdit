@@ -17,6 +17,7 @@
         android:text="ImageView Removed!"/>
 
     <Button
+        android:id="@+id/buttonPush"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Don't Push"/>
