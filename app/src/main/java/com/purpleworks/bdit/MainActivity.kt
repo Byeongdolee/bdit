@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        text_one.text = "오늘 신동형님께서 스타벅스 커피 사주심!"
+        text_one.text = "아아아아아아아아아아아아 아아아"
 
     }
 }
