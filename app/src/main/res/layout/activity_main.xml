@@ -7,6 +7,14 @@
     android:gravity="center"
     tools:context="com.purpleworks.bdit.MainActivity">
 
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/imagePopup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/popup"
+        android:scaleType="fitXY"/>
+
     <TextView
         android:gravity="center"
         android:id="@+id/text_one"
@@ -17,7 +25,7 @@
         android:text="ImageView Removed!"/>
 
     <Button
-        android:id="@+id/buttonPush"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Don't Push"/>
