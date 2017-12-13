@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        text_one.text = "아아아아아아아아아아아아 아아아"
+        text_one.text = "state1"
 
     }
 }
